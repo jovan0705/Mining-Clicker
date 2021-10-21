@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,18 @@
     <link rel="stylesheet" href="game.css">
     <title>Mining Clicker</title>
 </head>
+
 <body>
     <div class="count">
-        <p>Count = 0</p>
+        <p>Count = <a id="clicks">0</a> </p>
     </div>
     <div class="coin">
-        <p>DOGECOIN = 0</p>
+        <p>DOGECOIN = <a id="btc">0</a></p>
     </div>
-    <div class="button"> 
-        <button type="button" id = "clicker">AAAAAAAAAAAAAAAAAAAA</button>
+    <div class="button">
+        <button type="button" id="clicker" onClick="onClick()">tap for mining</button>
     </div>
-
+    <script src="index.js"></script>
 </body>
+
 </html>
