@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/originals/3c/14/81/3c148148b87dc0c73abb55e3b0f21dad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#clicker {
+    width: 50vw;
+    height: 100vh;
+    background-color: transparent;
+    border-color:transparent;
+    border-width: 5px;
+    background-image: url(./asset/background-game-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 100px;
+    color:rgb(163, 139, 0);
+}
+
+#clicker2 {
+    width: 40vw;
+    height: 100vh;
+    background-color: transparent;
+    border-color:transparent;
+    border-width: 5px;
+    background-image: url(./asset/background-game-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 100px;
+}
+
+.count {
+    float: right;
+}
+
+p {
+    margin: 100px;
+    font-size: 150px;
+    color: white;
+    
+}
+
+.coin {
+    float: left;
+}
