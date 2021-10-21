@@ -6,12 +6,21 @@ function onClick() {
     //let str = "hello"
     document.getElementById("clicks").innerHTML = clicks;
     document.getElementById("btc").innerHTML = clicks/1000 + "₿";
+    if (clicks % 2 == 0) {
+        document.getElementById("clicker2").id = "clicker";
+    } else {
+        document.getElementById("clicker").id = "clicker2";
+    }
     console.log(clicks);
     if(clicks == parameter) {
         setTimeout(alertFunction,500)
         parameter+=5 
     }
-    if(clicks == 30) location.replace("https://www.youtube.com/watch?v=iik25wqIuFo");
+    if(clicks == 100) {
+        alert('Congratulation You Beat the Game and Getting Rickrolled :)')
+        location.replace("./start.html")
+        window.open("https://www.youtube.com/watch?v=iik25wqIuFo?autoplay=1");
+    }
 };
 
 function offClick(){
