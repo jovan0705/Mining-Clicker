@@ -20,7 +20,7 @@ function onClick() {
     }
     if(clicks == 100) {
         alert('Congratulation You Beat the Game and Getting Rickrolled :)')
-        location.replace("./start.html")
+        location.replace("./index.html")
         window.open("https://www.youtube.com/watch?v=iik25wqIuFo?autoplay=1");
     }
     audio.load();
