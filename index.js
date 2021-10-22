@@ -1,7 +1,6 @@
 var clicks = 0;
 var btc = 0;
 var parameter = 10
-var audio = new audio("./asset/click.mp4")
 function onClick() {
     clicks += 1;
     //let str = "hello"
@@ -19,9 +18,12 @@ function onClick() {
     }
     if(clicks == 100) {
         alert('Congratulation You Beat the Game and Getting Rickrolled :)')
-        location.replace("./start.html")
+        location.replace("./index.html")
         window.open("https://www.youtube.com/watch?v=iik25wqIuFo?autoplay=1");
     }
+    let audio = document.getElementById("soundEffect")
+    audio.load();    
+    audio.play();
 };
 
 function offClick(){

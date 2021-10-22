@@ -27,8 +27,9 @@ body {
     background-image: url(./asset/background-game-1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    font-size: 100px;
+    font-size: 45px;
     color:rgb(163, 139, 0);
+    position: fixed;
 }
 
 #clicker2 {
@@ -42,6 +43,7 @@ body {
     background-repeat: no-repeat;
     font-size: 100px;
     color:rgb(163, 139, 0);
+    position: fixed;
 }
 
 .count {
@@ -49,8 +51,8 @@ body {
 }
 
 p {
-    margin: 100px;
-    font-size: 150px;
+    margin: 50px;
+    font-size: 35px;
     color: white;
     
 }
