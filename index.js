@@ -37,7 +37,8 @@ function offClick(){
 
 function alertFunction(){
     //
-    let kata = ["you can doit","more","again","it'll make you rich bro"]
+    let kata = ["you can doit","more","again","it'll make you rich bro","notice me senpai",
+"to the moon","sri mulyani started crying","c'mon oni-chann"]
     console.log(kata[Math.floor(Math.random() * kata.length)]);
     let randomWords = kata[Math.floor(Math.random() * kata.length)]
     document.getElementById("clicker").innerHTML = randomWords
